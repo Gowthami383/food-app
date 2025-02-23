@@ -8,7 +8,6 @@ import LeftSideCardPanel from '../../utils/Cards/LeftSideCardPanel/LeftSideCardP
 import SuggestedFollowCard from '../../utils/UserProfileUtils/SuggestedFollowCard/SuggestedFollowCard'
 import ProfileWidget from '../../utils/UserProfileUtils/ProfileWidget/ProfileWidget'
 
-import userImg from '/images/koushil.jpg';
 
 const User = () => {
 
@@ -30,15 +29,15 @@ const User = () => {
     ];
 
     let data3 = [
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"}
+        {userId: 123,  userName: "Gowri", reviews: 200, followers: "123"},
+        {userId: 123,  userName: "Gowri", reviews: 200, followers: "123"},
+        {userId: 123, userName: "Gowri", reviews: 200, followers: "123"},
+        {userId: 123, userName: "Gowri", reviews: 200, followers: "123"}
     ]
 
     let data4 = {
-      profilePic: userImg,
-      userName: "Koushil",
+      
+      userName: "Gowri",
       reviews: 1,
       photos: 1,
       followers: 200
